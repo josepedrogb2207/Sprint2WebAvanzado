@@ -1,0 +1,13 @@
+server:
+  port: 8100
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      bootstrap-servers: localhost:9092
+    producer:
+      bootstrap-servers: localhost:9092
+
+firebase:
+  credentials:
+    path: webavanzadosprint2-firebase-adminsdk-fbsvc-c13e3f32f4.json
